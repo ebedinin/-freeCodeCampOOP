@@ -1,6 +1,7 @@
 let dog = {
     name: "Spot",
-    numLegs: 4
+    numLegs: 4,
+    sayLegs : ()=> `This dog has ${dog.numLegs} legs.`
 };
-console.log(dog.name, dog.numLegs);
-// Only change code below this line
+
+dog.sayLegs();
