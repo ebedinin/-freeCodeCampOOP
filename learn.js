@@ -1,7 +1,6 @@
-let dog = {
-    name: "Spot",
-    numLegs: 4,
-    sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
-};
-
-dog.sayLegs();
+function Dog(){
+    const name = "A", color = "red", numLegs =5;
+    this.name = name;
+    this.color = color;
+    this.numLegs = numLegs;
+}
