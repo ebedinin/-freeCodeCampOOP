@@ -1,4 +1,6 @@
 let dog = {
-    name: "Bob",
-    numLegs: 5
+    name: "Spot",
+    numLegs: 4
 };
+console.log(dog.name, dog.numLegs);
+// Only change code below this line
