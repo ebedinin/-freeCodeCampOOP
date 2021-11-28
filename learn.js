@@ -1,6 +1,7 @@
-function Dog(){
-    const name = "A", color = "red", numLegs =5;
-    this.name = name;
-    this.color = color;
-    this.numLegs = numLegs;
+function Dog() {
+    this.name = "Rupert";
+    this.color = "brown";
+    this.numLegs = 4;
 }
+
+const hound = new Dog();
